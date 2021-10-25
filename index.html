@@ -71,32 +71,89 @@
   </section>
   <div class="form-container" id="form-container">
     <section class="form-section">
+      <span class="add-section">
+        <i class="fas fa-plus add-icon tooltip" onClick="toggleModal()">
+          <span class="tooltip-text">Add new</span>
+        </i>
+        <div class="add-new-item-modal" id="itemModal">
+          <div class="modal-item">
+            <span class="item-header">
+              <div class="grid-size-xl"></div>
+            </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header">
+              <div class="grid-size-lg"></div>
+            </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header">
+              <div class="grid-size-md"></div>
+            </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header">
+              <div class="grid-size-sm"></div>
+            </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item grid-size-2xl">
+            <p class="text-black">lorem epsum dollar smit</p>
+          </div>
+          <div class="modal-item">
+            <span class="item-header"> </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header"> </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header"> </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+          <div class="modal-item">
+            <span class="item-header"> </span>
+            <span class="item-footer"> lorem</span>
+          </div>
+        </div>
+      </span>
       <div class="section-control-tool">
         <span class="section-tools">
-          <i class="fas fa-caret-up tool-icon tool"></i>
-          <i class="fas fa-caret-down tool-icon tool"></i>
-          <i class="fas fa-cog tool-icon tool"></i>
-          <i class="far fa-file-alt tool-icon tool"></i>
-          <i class="far fa-file tool-icon tool"></i>
-          <i class="far fa-trash-alt tool-icon tool"></i>
+          <i class="fas fa-caret-up tool-icon tool tooltip">
+            <span class="tooltip-text">up </span></i>
+          <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+          <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+          <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+          <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+          <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
         </span>
       </div>
       <div class="form-content">
         <div class="form-control">
+          <div class="error-label">lorem epsum dollar smit</div>
           <div class="form-label">
             <p>lorem epsum</p>
           </div>
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-user input-icon"></i>
             <input type="text" value="" placeholder="Enter username" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-resize">
@@ -105,47 +162,60 @@
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-envelope input-icon"></i>
             <input type="text" value="" placeholder="Enter email" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-resize">
             <img src="./assets/images/resizeIcon.png" />
           </div>
           <div class="add-new-row align-center">
-            <i class="fas fa-plus add-row-icon add-icon"></i>
+            <i class="fas fa-plus add-row-icon add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-phone-volume input-icon"></i>
             <input type="text" value="" placeholder="Enter phone no" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-tool">
             <span class="form-tools">
-              <i class="fas fa-caret-up tool-icon tool"></i>
-              <i class="fas fa-caret-down tool-icon tool"></i>
-              <i class="fas fa-cog tool-icon tool"></i>
-              <i class="far fa-file-alt tool-icon tool"></i>
-              <i class="far fa-file tool-icon tool"></i>
-              <i class="far fa-trash-alt tool-icon tool"></i>
+              <i class="fas fa-caret-up tool-icon tool tooltip">
+                <span class="tooltip-text">up </span></i>
+              <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+              <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+              <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+              <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+              <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
             </span>
           </div>
         </div>
@@ -154,20 +224,27 @@
             <p>lorem epsum</p>
           </div>
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-home input-icon"></i>
             <input type="text" value="" placeholder="Enter address" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="add-new-row align-right">
-            <i class="fas fa-plus add-row-icon add-icon"></i>
+            <i class="fas fa-plus add-row-icon add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
           <div class="form-control-resize">
             <img src="./assets/images/resizeIcon.png" />
@@ -175,26 +252,32 @@
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-archway input-icon"></i>
             <input type="text" value="" placeholder="Enter street no" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-tool">
             <span class="form-tools">
-              <i class="fas fa-caret-up tool-icon tool"></i>
-              <i class="fas fa-caret-down tool-icon tool"></i>
-              <i class="fas fa-cog tool-icon tool"></i>
-              <i class="far fa-file-alt tool-icon tool"></i>
-              <i class="far fa-file tool-icon tool"></i>
-              <i class="far fa-trash-alt tool-icon tool"></i>
+              <i class="fas fa-caret-up tool-icon tool tooltip">
+                <span class="tooltip-text">up </span></i>
+              <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+              <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+              <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+              <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+              <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
             </span>
           </div>
         </div>
@@ -203,37 +286,47 @@
             <p>lorem epsum</p>
           </div>
           <div class="add-new-item">
-            <i class="fas fa-plus add-new-icon"></i>
+            <i class="fas fa-plus add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
           <div class="form-control-resize">
             <img src="./assets/images/resizeIcon.png" />
           </div>
           <div class="add-new-row align-right">
-            <i class="fas fa-plus add-row-icon add-icon"></i>
+            <i class="fas fa-plus add-row-icon add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-map-marker-alt input-icon"></i>
             <input type="text" value="" placeholder="Enter location" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-tool">
             <span class="form-tools">
-              <i class="fas fa-caret-up tool-icon tool"></i>
-              <i class="fas fa-caret-down tool-icon tool"></i>
-              <i class="fas fa-cog tool-icon tool"></i>
-              <i class="far fa-file-alt tool-icon tool"></i>
-              <i class="far fa-file tool-icon tool"></i>
-              <i class="far fa-trash-alt tool-icon tool"></i>
+              <i class="fas fa-caret-up tool-icon tool tooltip">
+                <span class="tooltip-text">up </span></i>
+              <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+              <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+              <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+              <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+              <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
             </span>
           </div>
         </div>
@@ -242,20 +335,25 @@
             <p>lorem epsum</p>
           </div>
           <div class="add-new-item">
-            <i class="fas fa-plus add-new-icon"></i>
+            <i class="fas fa-plus add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
           <div class="form-control-tool">
             <span class="form-tools">
-              <i class="fas fa-caret-up tool-icon tool"></i>
-              <i class="fas fa-caret-down tool-icon tool"></i>
-              <i class="fas fa-cog tool-icon tool"></i>
-              <i class="far fa-file-alt tool-icon tool"></i>
-              <i class="far fa-file tool-icon tool"></i>
-              <i class="far fa-trash-alt tool-icon tool"></i>
+              <i class="fas fa-caret-up tool-icon tool tooltip">
+                <span class="tooltip-text">up </span></i>
+              <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+              <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+              <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+              <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+              <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
             </span>
           </div>
           <div class="add-new-row align-center">
-            <i class="fas fa-plus add-row-icon add-icon"></i>
+            <i class="fas fa-plus add-row-icon add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
         </div>
         <div class="form-control">
@@ -263,7 +361,9 @@
             <p>lorem epsum</p>
           </div>
           <div class="add-new-item">
-            <i class="fas fa-plus add-new-icon"></i>
+            <i class="fas fa-plus add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
           <div class="form-control-resize">
             <img src="./assets/images/resizeIcon.png" />
@@ -271,21 +371,28 @@
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-archway input-icon"></i>
             <input type="text" value="" placeholder="Enter street" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
 
           <div class="add-new-row align-center">
-            <i class="fas fa-plus add-row-icon add-icon"></i>
+            <i class="fas fa-plus add-row-icon add-icon tooltip">
+              <span class="tooltip-text">Add new</span>
+            </i>
           </div>
           <div class="form-control-resize">
             <img src="./assets/images/resizeIcon.png" />
@@ -293,201 +400,410 @@
         </div>
         <div class="form-control">
           <span class="input-tools">
-            <i class="fas fa-arrows-alt tool-icon tool"></i>
-            <i class="fas fa-cog tool-icon tool"></i>
-            <i class="far fa-file tool-icon tool"></i>
-            <i class="far fa-trash-alt tool-icon tool"></i>
+            <i class="fas fa-arrows-alt tool-icon tool tooltip">
+              <span class="tooltip-text">move</span>
+            </i>
+            <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+
+            <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+            <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
           </span>
           <div class="input-control">
             <i class="fas fa-map-marker-alt input-icon"></i>
             <input type="text" value="" placeholder="Enter location" class="input-field" />
             <span class="add-new-input">
-              <i class="fas fa-plus add-icon"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
             </span>
           </div>
           <div class="form-control-tool">
             <span class="form-tools">
-              <i class="fas fa-caret-up tool-icon tool"></i>
-              <i class="fas fa-caret-down tool-icon tool"></i>
-              <i class="fas fa-cog tool-icon tool"></i>
-              <i class="far fa-file-alt tool-icon tool"></i>
-              <i class="far fa-file tool-icon tool"></i>
-              <i class="far fa-trash-alt tool-icon tool"></i>
+              <i class="fas fa-caret-up tool-icon tool tooltip">
+                <span class="tooltip-text">up </span></i>
+              <i class="fas fa-caret-down tool-icon tool tooltip"><span class="tooltip-text">down </span></i>
+              <i class="fas fa-cog tool-icon tool tooltip"><span class="tooltip-text">setting</span></i>
+              <i class="far fa-file-alt tool-icon tool tooltip"><span class="tooltip-text">clipboard</span></i>
+              <i class="far fa-file tool-icon tool tooltip"><span class="tooltip-text">copy</span></i>
+              <i class="far fa-trash-alt tool-icon tool tooltip"><span class="tooltip-text">delete</span></i>
             </span>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- SIDEBAR SECTION -->
-    <section class="sidebar-section">
-        <div class="sidebar__toogle">
-          <i class="fal fa-angle-double-left"></i>
-        </div>
-      <div class="sidebar">
-        <!-- <div class="sidebar__header">
-          <button class="header__btn">
-            <span>
-              <i class="fas fa-eye"></i>
-            </span>
-            <span> プレビュー </span>
-          </button>
-          <button class="header__btn">
-            <span>
-              <i class="fas fa-save"></i>
-            </span>
-            <span>保存</span>
-          </button>
-        </div> -->
-        <div class="sidebar__typs">
-          <div class="sidebar__typs__item">
-            <span><i class="fal fa-window"></i></span>
-            ブロック
-          </div>
-          <div class="sidebar__typs__item">
-            <span><i class="fal fa-border-all"></i></span>
-            セクション
-          </div>
-          <div class="sidebar__typs__item">
-            <span><i class="fal fa-star"></i></span>
-            エレメント
-          </div>
-        </div>
-        <div class="sidebar__text">
-          <span>サブヘッドスタイル</span>
-        </div>
-        <div class="sidebar__body">
-          <div class="sidebar__body__slider">
-            <div class="input__label">先頭位置</div>
-            <div>
-              <input type="range" min="1" max="100" value="35" class="slider__color" id="id1" />
-            </div>
-            <form>
-              <input class="sidebar__input" type="number" id="quantity" name="quantity" min="0" max="100"
-                placeholder="px" />
-            </form>
-          </div>
-          <div class="sidebar__body__slider">
-            <div class="input__label">フォント</div>
-            <form class="sidebar__select">
-              <input class="sitebar__input__field" list="browsers" name="browser" value="ヒラギノ角ゴ" style="width: 100%" />
-              <datalist id="browsers">
-              </datalist>
-            </form>
-          </div>
-          <div class="sidebar__body__slider">
-            <div class="input__label">サイズ</div>
-            <div>
-              <input type="range" min="1" max="100" value="30" class="slider__color" id="id1" />
-            </div>
-            <form>
-              <input class="sidebar__input" type="number" id="quantity" name="quantity" min="0" max="100"
-                placeholder="%" />
-            </form>
-          </div>
-          <div class="sidebar__body__slider" >
-            <div class="sidebar__text__type" id="sidebar__type">
-              <button class="typesi types"><i class="fas fa-bold"></i></button>
-              <button class="typesi types"><i class="fas fa-italic"></i></button>
-              <button class="typesi types active"><i class="fas fa-underline"></i></button>
-              <button class="typesi types"><i class="fas fa-strikethrough"></i></button>
-              <button class="typesi "><i class="fas fa-paperclip"></i></button>
-            </div>
-   </div>
-          <div class="sidebar__body__type">
-            <div class="input__label">テキストカラー</div>
-            
-            
-            <div class="dropdown">
-              <button class="sidebar__body__btn"></button>
-              <div class="dropdown-content">
-                  <table class="color-group">
-                      <tr>
-                          <td><a href="#" class="color1-1"></a></td>
-                          <td><a href="#" class="color1-2"></a></td>
-                          <td><a href="#" class="color1-3"></a></td>
-                          <td><a href="#" class="color1-4"></a></td>
-                          <td><a href="#" class="color1-5"></a></td>
-                          <td><a href="#" class="color1-6"></a></td>
-                      </tr>
-      
-                      <tr>
-                          <td><a href="#" class="color2-1"></a></td>
-                          <td><a href="#" class="color2-2"></a></td>
-                          <td><a href="#" class="color2-3"></a></td>
-                          <td><a href="#" class="color2-4"></a></td>
-                          <td><a href="#" class="color2-5"></a></td>
-                          <td><a href="#" class="color2-6"></a></td>
-                      </tr>
-      
-                      <tr>
-                          <td><a href="#" class="color3-1"></a></td>
-                          <td><a href="#" class="color3-2"></a></td>
-                          <td><a href="#" class="color3-3"></a></td>
-                          <td><a href="#" class="color3-4"></a></td>
-                          <td><a href="#" class="color3-5"></a></td>
-                          <td><a href="#" class="color3-6"></a></td>
-                      </tr>
-      
-                      <tr>
-                          <td><a href="#" class="color4-1"></a></td>
-                          <td><a href="#" class="color4-2"></a></td>
-                          <td><a href="#" class="color4-3"></a></td>
-                          <td><a href="#" class="color4-4"></a></td>
-                          <td><a href="#" class="color4-5"></a></td>
-                          <td><a href="#" class="color4-6"></a></td>
-                      </tr>
-      
-                      <tr>
-                          <td><a href="#" class="color5-1"></a></td>
-                          <td><a href="#" class="color5-2"></a></td>
-                          <td><a href="#" class="color5-3"></a></td>
-                          <td><a href="#" class="color5-4"></a></td>
-                          <td><a href="#" class="color5-5"></a></td>
-                          <td><a href="#" class="color5-6"></a></td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
-
-
-
-          </div>
-          <div class="sidebar__body__type">
-            <div class="input__label">サブヘッド背景色</div>
-            <button class="sidebar__body__btn"></button>
-          </div>
-          <div class="sidebar__body__slider">
-            <div class="sidebar__text__types">
-              <div class="sidebar__text__type">
-                <button class="typesi align"><i class="fas fa-align-left"></i></button>
-                <button class="typesi align"><i class="fas fa-align-center"></i></button>
-                <button class="typesi align"><i class="fas fa-align-right"></i></button>
-              </div>
-              <div class="sidebar__text__type">
-                <button class="typesi before"><i class="fas fa-list-ol"></i></button>
-                <button class="typesi before"><i class="fas fa-list-ul"></i></button>
-                <button class="typesi before"><i class="fas fa-tasks"></i></button>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="sidebar__footer">
-          <button class="sidebar__footer__item sidebar__footer__active">
-            全て
-          </button>
-          <button class="sidebar__footer__item">
-            <span><i class="fas fa-tv"></i></span>
-            デスクトップのみ
-          </button>
-          <button class="sidebar__footer__item">
-            <span><i class="fas fa-mobile-alt"></i></span>
-            <span>モバイルのみ</span>
-          </button>
         </div>
       </div>
     </section>
   </div>
+  <!-- SIDEBAR SECTION -->
+  <div class="sidebar__toogle">
+    <i id="toggle_icon" class="fal fa-angle-double-left"></i>
+  </div>
+  <section class="sidebar-section">
+    <div class="sidebar">
+      <div class="sidebar__typs">
+        <div class="sidebar__typs__item">
+          <span><i class="fal fa-window"></i></span>
+          ブロック
+        </div>
+        <div class="sidebar__typs__item">
+          <span><i class="fal fa-border-all"></i></span>
+          セクション
+        </div>
+        <div class="sidebar__typs__item">
+          <span><i class="fal fa-star"></i></span>
+          エレメント
+        </div>
+      </div>
+      <div class="sidebar__text">
+        <span>サブヘッドスタイル</span>
+      </div>
+      <div class="sidebar__body">
+        <div class="sidebar__body__slider">
+          <div class="input__label">先頭位置</div>
+          <div>
+            <input type="range" min="1" max="100" value="35" class="slider__color" id="id1" />
+          </div>
+          <form>
+            <input class="sidebar__input" type="number" id="quantity" name="quantity" min="0" max="100"
+              placeholder="px" />
+          </form>
+        </div>
+        <div class="sidebar__body__slider">
+          <div class="input__label">フォント</div>
+          <form class="sidebar__select">
+            <input class="sitebar__input__field" list="browsers" name="browser" value="ヒラギノ角ゴ" style="width: 100%" />
+            <datalist id="browsers"> </datalist>
+          </form>
+        </div>
+        <div class="sidebar__body__slider">
+          <div class="input__label">サイズ</div>
+          <div>
+            <input type="range" min="1" max="100" value="30" class="slider__color" id="id1" />
+          </div>
+          <form>
+            <input class="sidebar__input" type="number" id="quantity" name="quantity" min="0" max="100"
+              placeholder="%" />
+          </form>
+        </div>
+        <div class="sidebar__body__slider">
+          <div class="sidebar__text__type">
+            <div><i class="fas fa-bold"></i></div>
+            <div><i class="fas fa-italic"></i></div>
+            <div><i class="fas fa-underline"></i></div>
+            <div><i class="fas fa-strikethrough"></i></div>
+            <!-- <i class="far fa-link"></i> -->
+          </div>
+        </div>
+        <div class="sidebar__body__type">
+          <div class="input__label">テキストカラー</div>
+
+          <div class="dropdown">
+            <button class="sidebar__body__btn"></button>
+            <div class="dropdown-content">
+              <table class="color-group">
+                <tr>
+                  <td><a href="#" class="color1-1"></a></td>
+                  <td><a href="#" class="color1-2"></a></td>
+                  <td><a href="#" class="color1-3"></a></td>
+                  <td><a href="#" class="color1-4"></a></td>
+                  <td><a href="#" class="color1-5"></a></td>
+                  <td><a href="#" class="color1-6"></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="color2-1"></a></td>
+                  <td><a href="#" class="color2-2"></a></td>
+                  <td><a href="#" class="color2-3"></a></td>
+                  <td><a href="#" class="color2-4"></a></td>
+                  <td><a href="#" class="color2-5"></a></td>
+                  <td><a href="#" class="color2-6"></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="color3-1"></a></td>
+                  <td><a href="#" class="color3-2"></a></td>
+                  <td><a href="#" class="color3-3"></a></td>
+                  <td><a href="#" class="color3-4"></a></td>
+                  <td><a href="#" class="color3-5"></a></td>
+                  <td><a href="#" class="color3-6"></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="color4-1"></a></td>
+                  <td><a href="#" class="color4-2"></a></td>
+                  <td><a href="#" class="color4-3"></a></td>
+                  <td><a href="#" class="color4-4"></a></td>
+                  <td><a href="#" class="color4-5"></a></td>
+                  <td><a href="#" class="color4-6"></a></td>
+                </tr>
+
+                <tr>
+                  <td><a href="#" class="color5-1"></a></td>
+                  <td><a href="#" class="color5-2"></a></td>
+                  <td><a href="#" class="color5-3"></a></td>
+                  <td><a href="#" class="color5-4"></a></td>
+                  <td><a href="#" class="color5-5"></a></td>
+                  <td><a href="#" class="color5-6"></a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar__body__type">
+          <div class="input__label">サブヘッド背景色</div>
+          <button class="sidebar__body__btn"></button>
+          <button class="btn__color">
+            <img
+              src="https://www.sessions.edu/wp-content/themes/divi-child/color-calculator/wheel-3-rgb.png"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="sidebar__body__slider">
+          <div class="sidebar__text__types">
+            <div class="sidebar__text__type">
+              <div><i class="fas fa-align-left"></i></div>
+              <div><i class="fas fa-align-center"></i></div>
+              <div><i class="fas fa-align-right"></i></div>
+            </div>
+            <div class="sidebar__text__type">
+              <div><i class="fas fa-list-ol"></i></div>
+              <div><i class="fas fa-list-ul"></i></div>
+              <div><i class="fas fa-tasks"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__footer">
+        <div class="sidebar__footer__item sidebar__footer__active">
+          全て
+        </div>
+        <div class="sidebar__footer__item">
+          <span><i class="fas fa-tv"></i></span>
+          デスクトップのみ
+        </div>
+        <div class="sidebar__footer__item">
+          <span><i class="fas fa-mobile-alt"></i></span>
+          <span>モバイルのみ</span>
+        </div>
+      </div>
+    </div>
+    <section class="rgb-section">
+      <div class="rgb-section-header">
+        <img src="./assets/images/img/1.jpg" width="37px" alt="" />
+        <img src="./assets/images/img/2.jpg" width="37px" alt="" />
+        <img src="./assets/images/img/3.jpg" width="37px" alt="" />
+        <img src="./assets/images/img/4.jpg" width="37px" alt="" />
+        <img src="./assets/images/img/5.jpg" width="37px" alt="" />
+      </div>
+      <div class="rgb-header">
+        <select class="rgb-dropdown">
+          <option value="bar" selected>Bar type</option>
+          <option value="circle">Circle type</option>
+          <option value="history">History</option>
+        </select>
+        <div class="rgb-more-btn">
+          <i class="far fa-ellipsis-h"></i>
+        </div>
+      </div>
+      <div id="rgb-searchBox" class="rgb-search">
+        <form action="/search" class="rgb-search-form" id="rgbsearchform" method="get">
+          <span id="noEasy"><input class="" type="submit" value="" />
+            <i class="fas fa-search search-icon"></i>
+            <span class="sb-icon-search"></span></span>
+          <input id="sbox" name="q"
+            onblur="if (this.placeholder == '') {this.placeholder = 'To search type + hit enter';}"
+            onfocus="if (this.placeholder == 'To search type + hit enter') {this.placeholder = '';}"
+            placeholder="Search" type="text" x-webkit-speech="" />
+        </form>
+        <div class="rgb-icons">
+          <button><i class="fas fa-plus"></i></button>
+          <button><i class="fas fa-minus"></i></button>
+        </div>
+      </div>
+
+      <!-- History Items  -->
+      <div class="rgb-history-items">
+        <ul class="rgb-history-list">
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color1"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color2"></div>
+              イロアスブルー
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color3"></div>
+              ライトブルー
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color4"></div>
+              グレー
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color5"></div>
+              青
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color6"></div>
+              赤
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color7"></div>
+              紫の
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color8"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color9"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color10"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color11"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color12"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color13"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color14"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color15"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color16"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color17"></div>
+              青色
+            </button>
+          </li>
+          <li>
+            <button class="rgb-history-item">
+              <div class="history-color h-color18"></div>
+              青色
+            </button>
+          </li>
+        </ul>
+      </div>
+      <!-- End History Items -->
+
+      <!-- Bar -->
+      <div class="wrapper">
+        <div class="main">
+          <input type="text" id="box" value="rgb(255,255,255)" />
+
+          <div class="color__wrap">
+            <label for="">
+              カラーワン:<input type="range" id="red" value="238" min="0" max="255" />
+            </label>
+            <span id="redValue">238</span>
+          </div>
+          <div class="color__wrap">
+            <label for="">
+              色:<input type="range" id="green" value="34" min="0" max="255" />
+            </label>
+            <span id="greenValue">34</span>
+          </div>
+          <div class="color__wrap">
+            <label for="">
+              色:<input type="range" id="blue" value="12" min="0" max="255" />
+            </label>
+            <span id="blueValue">12</span>
+          </div>
+          <div class="rgbValue">
+            <span>rgb to hex</span>
+            <span class="rgbToHEX">EE220C</span>
+          </div>
+        </div>
+      </div>
+      <!-- End Bar -->
+
+      <!-- Circle -->
+      <div class="circle-picker">
+        <div class="wheel" id="colorWheelDemo"></div>
+      </div>
+      <!-- End Circle -->
+
+      <div class="rgb-footer-title">
+        <div class="footer-text">text</div>
+        <div class="container--dark">
+          <input class="rgb-footer-range" type="range" min="0" max="100" value="100" step="1"
+            onmousemove="rangevalue3.value=value" />
+          <output id="rangevalue3">100</output>
+        </div>
+      </div>
+
+      <div class="rgb-history-footer">
+        <div class="rgb-selected-color"></div>
+        <button class="rgb-selector">
+          <i class="fad fa-eye-dropper"></i>
+        </button>
+        <div class="rgb-footer-group">
+          <div class="rgb-footer-first">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="rgb-footer-second">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="rgb-footer-third">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@jaames/iro"></script>
 
   <script src="./assets/js/index.js"></script>
 </body>

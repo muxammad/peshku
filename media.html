@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media component</title>
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <div class="media-container" id="media-container">
+      <section class="media-section">
+        <span class="add-section">
+          <i class="fas fa-plus add-icon tooltip" onClick="toggleSectioModal()">
+            <span class="tooltip-text">Add new</span>
+          </i>
+          <div class="add-new-media-modal" id="sectionModal">
+            <div class="modal-item">
+              <span class="item-header">
+                <div class="grid-size-xl"></div>
+              </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header">
+                <div class="grid-size-lg"></div>
+              </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header">
+                <div class="grid-size-md"></div>
+              </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header">
+                <div class="grid-size-sm"></div>
+              </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item grid-size-2xl">
+              <p class="text-black">lorem epsum dollar smit</p>
+            </div>
+            <div class="modal-item">
+              <span class="item-header"> </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header"> </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header"> </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+            <div class="modal-item">
+              <span class="item-header"> </span>
+              <span class="item-footer"> lorem</span>
+            </div>
+          </div>
+        </span>
+
+        <div class="section-control-tool">
+          <span class="section-tools">
+            <i class="fas fa-caret-up tool-icon tool tooltip">
+              <span class="tooltip-text">up </span></i
+            >
+            <i class="fas fa-caret-down tool-icon tool tooltip"
+              ><span class="tooltip-text">down </span></i
+            >
+            <i class="fas fa-cog tool-icon tool tooltip"
+              ><span class="tooltip-text">setting</span></i
+            >
+            <i class="far fa-file-alt tool-icon tool tooltip"
+              ><span class="tooltip-text">clipboard</span></i
+            >
+            <i class="far fa-file tool-icon tool tooltip"
+              ><span class="tooltip-text">copy</span></i
+            >
+            <i class="far fa-trash-alt tool-icon tool tooltip"
+              ><span class="tooltip-text">delete</span></i
+            >
+          </span>
+        </div>
+        <div class="media-content">
+          <div class="media-control">
+            <div class="media-label"><p>lorem epsum</p></div>
+            <div class="component-media-tools">
+              <span class="media-tools">
+                <i class="fas fa-arrows-alt tool-icon tool tooltip">
+                  <span class="tooltip-text">move</span>
+                </i>
+                <i class="fas fa-cog tool-icon tool tooltip"
+                  ><span class="tooltip-text">setting</span></i
+                >
+                <i class="far fa-file tool-icon tool tooltip"
+                  ><span class="tooltip-text">copy</span></i
+                >
+                <i class="far fa-trash-alt tool-icon tool tooltip"
+                  ><span class="tooltip-text">delete</span></i
+                >
+              </span>
+            </div>
+            <div class="add-new-item">
+              <div class="error-label">lorem epsum dollar smit</div>
+              <p>lorem <span class="text-red">epsom</span> dollar smit</p>
+              <i
+                class="fas fa-plus add-icon z-index tooltip"
+                onClick="toggleModal()"
+              >
+                <span class="tooltip-text">Add new</span></i
+              >
+              <div class="add-new-item-modal" id="itemModal">
+                <div class="modal-item">
+                  <span class="item-header">
+                    <h2 class="tool-icon tool m-0">T</h2>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-image tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-film tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <h2 class="tool-icon tool m-0">H</h2>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-bars tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-paragraph tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-user-circle tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-envelope tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i
+                      class="fas fa-hand-point-up tool-icon tool text-black"
+                    ></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-stopwatch tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-tablet tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-credit-card tool-icon tool text-black"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-cart-plus tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="fas fa-yen-sign tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+                <div class="modal-item">
+                  <span class="item-header">
+                    <i class="far fa-box-open tool-icon tool"></i>
+                  </span>
+                  <span class="item-footer"> lorem</span>
+                </div>
+              </div>
+            </div>
+            <div class="media-control-tool">
+              <span class="media-tools">
+                <i class="fas fa-caret-up tool-icon tool tooltip">
+                  <span class="tooltip-text">up </span></i
+                >
+                <i class="fas fa-caret-down tool-icon tool tooltip"
+                  ><span class="tooltip-text">down </span></i
+                >
+                <i class="fas fa-cog tool-icon tool tooltip"
+                  ><span class="tooltip-text">setting</span></i
+                >
+                <i class="far fa-file-alt tool-icon tool tooltip"
+                  ><span class="tooltip-text">clipboard</span></i
+                >
+                <i class="far fa-file tool-icon tool tooltip"
+                  ><span class="tooltip-text">copy</span></i
+                >
+                <i class="far fa-trash-alt tool-icon tool tooltip"
+                  ><span class="tooltip-text">delete</span></i
+                >
+              </span>
+            </div>
+          </div>
+
+          <div class="media-control">
+            <div class="add-new-item bg-black">
+              <i class="fas fa-play vedio text-white"></i>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
+            </div>
+          </div>
+
+          <div class="media-control">
+            <div class="component-media-tools">
+              <span class="media-tools">
+                <i class="fas fa-arrows-alt tool-icon tool tooltip">
+                  <span class="tooltip-text">move</span>
+                </i>
+                <i class="fas fa-cog tool-icon tool tooltip"
+                  ><span class="tooltip-text">setting</span></i
+                >
+
+                <i class="far fa-file tool-icon tool tooltip"
+                  ><span class="tooltip-text">copy</span></i
+                >
+                <i class="far fa-trash-alt tool-icon tool tooltip"
+                  ><span class="tooltip-text">delete</span></i
+                >
+              </span>
+            </div>
+            <div class="add-new-item">
+              <p>lorem <span class="text-red">epsom</span> dollar smit</p>
+              <i class="fas fa-plus add-icon tooltip">
+                <span class="tooltip-text">Add new</span>
+              </i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
